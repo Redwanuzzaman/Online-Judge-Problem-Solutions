@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    int n, m;
+    int n, m, r;
     cin >> n >> m;
-    if(m % n) cout << "NO\n";
-    else cout << "YES\n";
+    r = n * m;
+    cout << r << endl;
 }
