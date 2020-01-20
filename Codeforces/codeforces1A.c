@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+    int n;
+    int m;
+    int a;
+
+
+    while(scanf ("%d %d %d", &n, &m, &a)!=EOF)
+    {
+
+        printf ("%0.lf\n", ceil(n / (double) a) * ceil (m / (double) a));
+    }
+    return 0;
+}
