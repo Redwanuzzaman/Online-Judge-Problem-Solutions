@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+ 
+int main()
+{
+    ll n, k, len;
+    cin >> n >> k;
+    len = pow(2,n) - 1;
+    ll left = 1, right = len;
+    while(1)
+    {
+        ll mid = ((left + right) / 2);
+        if(mid == k || n < 2) return cout << n << endl, 0;
+        else if(k < mid) right = mid - 1;
+        else left = mid + 1;
+        n--;
+    }
+}
