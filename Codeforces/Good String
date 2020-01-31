@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int t, n, c1, c2;
+    string s;
+    cin >> t;
+    while(t--)
+    {
+        cin >> n >> s;
+        set <char> st;
+
+        if(n == 1) cout << 0 << endl;
+        else if(n == 2)
+        {
+            if(s[0] == '<' && s[1] == '>') cout << 1 << endl;
+            else cout << 0 << endl;
+        }
+        else if(s[0] == '>' || s[n-1] == '<') cout << 0 << endl;
+        else
+        {
+            for(int i = 0; i < n; i++)
+            {
+                if(s[i] == '>')
+                {
+                    c1 = i;
+                    break;
+                }
+            }
+            for(int i = n-1; i >= 0; i--)
+            {
+                if(s[i] == '<')
+                {
+                    c2 = i + 1;
+                    break;
+                }
+            }
+            int r1 = n - c1;
+            int r2 = n - r1;
+            int r3 = n - c2;
+            //cout << r2 << " " << r3 << endl;
+            int res = min(r2, r3);
+            cout << res << endl;
+        }
+    }
+}
