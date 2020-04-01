@@ -1,4 +1,4 @@
-// CodeJam 2018, Qualification Round, Problem A
+// CodeJam 2018, Qualification Round, Problem A, Fully Solved
 
 #include <bits/stdc++.h>
 using namespace std;
