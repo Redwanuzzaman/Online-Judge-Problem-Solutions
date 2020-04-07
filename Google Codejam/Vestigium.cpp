@@ -1,3 +1,4 @@
+// Fully Solved
 // CodeJam 2020, Qualification Round, Problem A, Vestigium
 
 #include <bits/stdc++.h>
