@@ -1,3 +1,4 @@
+// Fully Solved
 // CodeJam 2018, Qualification Round, Problem B
 
 #include <bits/stdc++.h>
