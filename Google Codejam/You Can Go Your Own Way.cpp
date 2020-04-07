@@ -1,4 +1,5 @@
-// Google Codejam 2019, Round 0, Problem B (Fully Solved)
+// Fully Solved
+// Codejam 2019, Round 0, Problem B
 
 #include <bits/stdc++.h>
 using namespace std;
