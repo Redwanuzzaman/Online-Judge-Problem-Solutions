@@ -1,0 +1,6 @@
+n = int(input())
+s = set(input().split())
+n2 = int(input())
+s2 = set(input().split())
+s3 = s.union(s2)
+print(len(s3))
