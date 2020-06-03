@@ -28,7 +28,7 @@ HH
 ==================================
 """
 
-# SLUTION
+# SOLUTION
 
 
 heads, tails = map(int, (input().split()))
