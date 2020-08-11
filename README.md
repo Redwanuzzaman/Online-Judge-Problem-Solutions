@@ -1,4 +1,4 @@
-   ###Online-Judge-Problem-Solution
+   Online-Judge-Problem-Solution
  ==================================
 * Codeforces
 * Uva
